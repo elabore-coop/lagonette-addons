@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+        <record id="view_partner_form_inherit" model="ir.ui.view">
+                <field name="name">view.partner.form.inherit</field>
+                <field name="model">res.partner</field>
+                <field name="inherit_id" ref="base.view_partner_form"/>
+                <field name="arch" type="xml">
+                        <!-- Add Google sheet link for following partner -->
+                        <xpath expr="//field[@name='lang']" position="after">
+                                <field name="track_record_pro" widget="url" placeholder="lien google sheet" attrs="{'invisible': [('is_company', '=', False)]}"/>
+                        </xpath>
+                        <!-- Add list of legal status for partner -->
+                        <xpath expr="//field[@name='type']" position="before">
+                                <field name="legal_status" attrs="{'invisible': [('is_company', '=', False)]}"/>
+                        </xpath>
+                        <!-- Add NAF Code -->
+                        <xpath expr="//field[@name='ref']" position="after">
+                                <field name="naf" attrs="{'invisible': [('is_company', '=', False)]}"/>
+                        </xpath>
+                        <!-- Add a source for venue -->
+                        <xpath expr="//field[@name='category_id']" position="before">
+                                <field name="source" attrs="{'invisible': [('is_company', '=', False)]}"/>
+                        </xpath>
+                        <!-- Add referent voluteer -->
+                        <xpath expr="//field[@name='user_id']" position="after">
+                                <field name="ref_volunter" attrs="{'invisible': [('is_company', '=', False)]}"/>
+                        </xpath>
+                </field>
+        </record>
+        
+        <record id="view_partner_membership_form_inherit" model="ir.ui.view">
+                <field name="name">view.partner.membership.form.inherit</field>
+                <field name="model">res.partner</field>
+                <field name="inherit_id" ref="membership.view_partner_form"/>
+                <field name="arch" type="xml">
+                        <!-- Add date of leaving -->
+                        <xpath expr="//field[@name='associate_member']" position="after">
+                                <field name="date_out"/>
+                        </xpath>
+                                <!-- why out-->
+                        <xpath expr="//field[@name='associate_member']" position="after">
+                                <field name="why_out"/>
+                        </xpath>
+                </field>
+        </record>
+
+</odoo>

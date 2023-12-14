@@ -1,0 +1,239 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* lagonette_contact_custom
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-14 13:59+0000\n"
+"PO-Revision-Date: 2023-12-14 13:59+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,legal_status:0
+msgid "Association"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,source:0
+#: selection:res.partner,why_out:0
+msgid "Autre"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,source:0
+msgid "Cigales"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,legal_status:0
+msgid "Collectivité"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: model:ir.model,name:lagonette_contact_custom.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,legal_status:0
+msgid "Coopérative d'activités"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,why_out:0
+msgid "Difficulté de gestion/comptabilité"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,why_out:0
+msgid "Difficulté à écouler les gonettes"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,source:0
+msgid "Démarche de notre part"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,source:0
+msgid "Démarche spontanée"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,legal_status:0
+msgid "EURL"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,legal_status:0
+msgid "Entreprise individuelle"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,source:0
+msgid "Event FB Lyon en commun"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,legal_status:0
+msgid "Fondation"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,why_out:0
+msgid "Gros retard de cotisation"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: model:ir.model.fields,field_description:lagonette_contact_custom.field_res_partner__naf
+#: model:ir.model.fields,field_description:lagonette_contact_custom.field_res_users__naf
+msgid "NAF"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,source:0
+msgid "NEF"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,source:0
+msgid "Outil de collecte et de redistriution des sous"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,why_out:0
+msgid "Pas assez de gonettes reçues/manque de dynamique locale"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,why_out:0
+msgid "Perte de sens ou d'intérêt pour le projet"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,legal_status:0
+msgid "Profession libérale"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,why_out:0
+msgid "Raison non précisée"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,why_out:0
+msgid "Raisons indépendantes à la Gonette (déménagement, cessation de l'activité etc...)"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,source:0
+msgid "Recommandation d'un pro"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,source:0
+msgid "Recommandation d'un utilisateur"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,legal_status:0
+msgid "SA"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,legal_status:0
+msgid "SARL"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,legal_status:0
+msgid "SAS"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,legal_status:0
+msgid "SASU"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,legal_status:0
+msgid "SCIC SA"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,legal_status:0
+msgid "SCIC SARL"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,legal_status:0
+msgid "SCIC SAS"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,legal_status:0
+msgid "SCOP SA"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,legal_status:0
+msgid "SCOP SARL"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,legal_status:0
+msgid "SCOP SAS"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: selection:res.partner,legal_status:0
+msgid "Salarié.e Coopérative"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: model:ir.model.fields,field_description:lagonette_contact_custom.field_res_partner__date_out
+#: model:ir.model.fields,field_description:lagonette_contact_custom.field_res_users__date_out
+msgid "exit date"
+msgstr "Date de sortie"
+
+#. module: lagonette_contact_custom
+#: model:ir.model.fields,field_description:lagonette_contact_custom.field_res_partner__legal_status
+#: model:ir.model.fields,field_description:lagonette_contact_custom.field_res_users__legal_status
+msgid "legal status"
+msgstr "Statut juridique"
+
+#. module: lagonette_contact_custom
+#: model_terms:ir.ui.view,arch_db:lagonette_contact_custom.view_partner_form_inherit
+msgid "lien google sheet"
+msgstr ""
+
+#. module: lagonette_contact_custom
+#: model:ir.model.fields,field_description:lagonette_contact_custom.field_res_partner__source
+#: model:ir.model.fields,field_description:lagonette_contact_custom.field_res_users__source
+msgid "source"
+msgstr "Origine de la démarche"
+
+#. module: lagonette_contact_custom
+#: model:ir.model.fields,field_description:lagonette_contact_custom.field_res_partner__track_record_pro
+#: model:ir.model.fields,field_description:lagonette_contact_custom.field_res_users__track_record_pro
+msgid "track record pro"
+msgstr "Lien suivi"
+
+#. module: lagonette_contact_custom
+#: model:ir.model.fields,field_description:lagonette_contact_custom.field_res_partner__ref_volunter
+#: model:ir.model.fields,field_description:lagonette_contact_custom.field_res_users__ref_volunter
+msgid "volunteer referent"
+msgstr "Référent bénévole"
+
+#. module: lagonette_contact_custom
+#: model:ir.model.fields,field_description:lagonette_contact_custom.field_res_partner__why_out
+#: model:ir.model.fields,field_description:lagonette_contact_custom.field_res_users__why_out
+msgid "why out"
+msgstr "Raison du départ"

@@ -22,8 +22,7 @@ class ResPartner(models.Model):
                                 ('collectivite','Collectivité'),
                                 ('fondation','Fondation'),
                                 ('salariee_cooperative','Salarié.e Coopérative'),
-                                ('gaec','GAEC'),
-                                ('association','Association')],
+                                ('gaec','GAEC')],
                                 string='legal status') #Statut juridique
     naf = fields.Char(string='NAF')#NAF
     ref_volunter = fields.Char(string='volunteer referent')#Référent bénévole

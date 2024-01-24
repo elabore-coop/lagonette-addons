@@ -2,8 +2,8 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'La Gonnette contact custom',
-    'version': '12.0.1.0.0',
+    'name': 'La Gonette contact custom',
+    'version': '12.0.1.0.1',
     'category': 'Accounting',
     'description': "La Gonnette : custom fields and views for partners",
     'depends': ['base','membership'],

@@ -9,18 +9,21 @@ class ResPartner(models.Model):
                                 ('sarl','SARL'),('eurl','EURL'),
                                 ('sas','SAS'),('sasu','SASU'),
                                 ('sa','SA'),
+                                ('sca','SCA'),
                                 ('scop_sarl','SCOP SARL'),
                                 ('scop_sas','SCOP SAS'),
                                 ('scop_sa','SCOP SA'),
                                 ('scic_sarl','SCIC SARL'),
                                 ('scic_sas','SCIC SAS'),
                                 ('scic_sa','SCIC SA'),
-                                ('cooperative_dactivites',"Coopérative d'activités"),
+                                ('scic_cae','SCIC CAE'),
                                 ('profession_liberale','Profession libérale'),
                                 ('entreprise_individuelle','Entreprise individuelle'),
                                 ('collectivite','Collectivité'),
                                 ('fondation','Fondation'),
-                                ('salariee_cooperative','Salarié.e Coopérative')],
+                                ('salariee_cooperative','Salarié.e Coopérative'),
+                                ('gaec','GAEC'),
+                                ('association','Association')],
                                 string='legal status') #Statut juridique
     naf = fields.Char(string='NAF')#NAF
     ref_volunter = fields.Char(string='volunteer referent')#Référent bénévole

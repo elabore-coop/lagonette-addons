@@ -46,3 +46,4 @@ class ResPartner(models.Model):
                             ('difficulte_a_ecouler_les_gonettes','Difficulté à écouler les gonettes'),
                             ('gros_retard_de_cotisation','Gros retard de cotisation')],
                             string='why out') #Raison du départ
+    is_former_member = fields.Boolean(string="is former member", default=False)

@@ -25,6 +25,10 @@
                         <xpath expr="//field[@name='user_id']" position="after">
                                 <field name="ref_volunter" attrs="{'invisible': [('is_company', '=', False)]}"/>
                         </xpath>
+                        <!-- Add is former member checkbox -->
+                        <xpath expr="//field[@name='user_id']" position="after">
+                                <field name="is_former_member"/>
+                        </xpath>
                 </field>
         </record>
         

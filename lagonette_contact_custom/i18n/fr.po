@@ -237,3 +237,9 @@ msgstr "Référent bénévole"
 #: model:ir.model.fields,field_description:lagonette_contact_custom.field_res_users__why_out
 msgid "why out"
 msgstr "Raison du départ"
+
+#. module: lagonette_contact_custom
+#: model:ir.model.fields,field_description:lagonette_contact_custom.field_res_partner__is_former_member
+#: model:ir.model.fields,field_description:lagonette_contact_custom.field_res_users__is_former_member
+msgid "is former member"
+msgstr "Ancien adhérent"

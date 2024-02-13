@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- ******************** -->
+    <!-- ** py3o templates ** -->
+    <!-- ******************** -->
+
+    <data noupdate="0"> <!-- noupdate="1" -->
+        <!-- **************************** -->
+        <!-- **       res.partner      ** -->
+        <!-- **************************** -->
+
+        <record id="lagonette_report_py3o.py3o_template_carte_d_adherent" model="py3o.template">
+            <field name="name">carte_d_adherent.odt</field>
+            <field name="filetype">odt</field>
+            <field name="py3o_template_data" type="base64" file="lagonette_report_py3o/reports/carte_d_adherent.odt" />
+        </record>
+    </data>
+
+
+    <!-- *********************** -->
+    <!-- ** ir.actions.report ** -->
+    <!-- *********************** -->
+
+    <data>
+        <!-- **************************** -->
+        <!-- **       res.partner      ** -->
+        <!-- **************************** -->
+
+        <record id="lagonette_report_py3o.action_report_carte_d_adherent" model="ir.actions.report">
+            <field name="name">Carte d'adhérent·e</field>
+            <field name="report_name">membership.card</field>
+            <field name="report_type">py3o</field>
+            <field name="model">res.partner</field>
+            <field name="print_report_name">"Carte_d_adhérent_%s" % (object.ref)</field>
+            <field name="py3o_filetype">odt</field>
+            <field name="module">lagonette_report_py3o</field>
+            <field name="py3o_template_fallback">reports/carte_d_adherent.odt</field>    
+            <field name="py3o_server_id" ref="lagonette_report_py3o.py3o_server" />
+            <field name="py3o_template_id" ref="lagonette_report_py3o.py3o_template_carte_d_adherent" />
+        </record>
+
+    </data>
+
+</odoo>

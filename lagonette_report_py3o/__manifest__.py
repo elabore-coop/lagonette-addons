@@ -11,7 +11,7 @@ La Gonette Reports Py3o
     """,
     'author': 'Elabore',
     'depends': [
-        'report_py3o',
+        'report_py3o','base','membership',
         ],
     'data': ['config.xml','report.xml'],
     'installable': True,
